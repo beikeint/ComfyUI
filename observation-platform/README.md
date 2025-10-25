@@ -14,7 +14,7 @@
 
 ```
 observation-platform/
-├── frontend/             # 前端 Vue 应用
+├── web/                  # 前端 Vue 应用
 │   ├── public/
 │   └── src/
 └── server/               # Node.js API 服务
@@ -45,7 +45,7 @@ npm run start
 ### 2. 启动前端
 
 ```bash
-cd frontend
+cd web
 npm install
 npm run serve
 ```
@@ -59,11 +59,11 @@ Vue 应用将运行在 `http://localhost:8080`。
 ## 构建与发布
 
 ```bash
-cd frontend
+cd web
 npm run build
 ```
 
-构建产物默认输出至 `frontend/dist`，可与后端整合部署或托管在静态服务器上。
+构建产物默认输出至 `web/dist`，可与后端整合部署或托管在静态服务器上。
 
 ## 设计说明
 
