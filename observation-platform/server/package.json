@@ -1,0 +1,20 @@
+{
+  "name": "observation-platform-server",
+  "version": "1.0.0",
+  "description": "Express server for 镇级产改观察点数字平台",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nanoid": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
